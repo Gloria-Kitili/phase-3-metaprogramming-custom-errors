@@ -1,3 +1,4 @@
+
 class Person
   attr_accessor :partner, :name
 
@@ -6,6 +7,7 @@ class Person
     @partner = nil
   end
 
+  
   def get_married(person)
     if person.is_a?(Person)
     self.partner = person
